@@ -1,0 +1,64 @@
+.TabView{
+    width: 100%;
+}
+
+.active-tab .icon-svg 
+{
+    fill: white;
+}
+  
+.icon-svg 
+{
+    width: 24px;
+    height: auto;
+    fill: #8FC0FF;
+}
+
+.tabs
+{
+    padding-top:20px ;
+    width: 90%;
+    height: 54px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.tab
+{
+    text-align: center;
+    background-color: #F5F9FD;
+    color: #8FC0FF;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    transition: 0.1s;
+    outline: 0px solid #8FC0FF;
+}
+  
+.tab:hover 
+{
+    outline-offset: -6px;
+    outline: 6px solid #8FC0FF;
+}
+  
+.active-tab
+{
+    text-align: center;
+    background-color: #fff;
+    color: #8FC0FF;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    transition: 0.1s;
+    outline: 0px solid #8FC0FF;
+}
+
+.active-tab
+{
+    background-color: #8FC0FF;
+}

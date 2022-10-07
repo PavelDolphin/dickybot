@@ -1,0 +1,16 @@
+.tabcontent 
+{
+    margin: auto;
+    flex-wrap: wrap;
+    width: 95%;
+    padding-top: 10px;
+    justify-content: space-around;
+    animation: fadeEffect 0.5s;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
